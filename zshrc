@@ -1,7 +1,11 @@
-# Init global
+# Load brew
+eval $(/opt/homebrew/bin/brew shellenv)
+
+# Init non-path vars
 export LANG=en_US.UTF-8
 export LC_ALL=$LANG
 export EDITOR=kak
+export GPG_TTY=`tty`
 
 # Actually start oh-my-zsh
 ZSH=$HOME/.oh-my-zsh
@@ -10,6 +14,9 @@ plugins=(git gitfast common-aliases zsh-syntax-highlighting)
 source "${ZSH}/oh-my-zsh.sh"
 
 unalias rm # No interactive rm by default (brought by plugins/common-aliases)
+
+# Init miscellaneous executables
+export PATH="/opt/homebrew/opt/libressl/bin:${PATH}"
 
 # Init rbenv _after_ path-altering ohmyzsh
 export PATH="${HOME}/.rbenv/bin:${HOME}/.pyenv/bin:${PATH}"

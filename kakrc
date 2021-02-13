@@ -1,5 +1,5 @@
 # Set the color scheme
-colorscheme kaleidoscope-dark
+# colorscheme kaleidoscope-dark
 
 # Indent with 2 spaces
 set-option global indentwidth 2
