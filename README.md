@@ -8,11 +8,21 @@ no fluff, just dotfiles
 
 ```bash
 mkdir -p ~/.config/kak/plugins
-mkdir -p ~/.exe
+mkdir -p ~/.local/bin
+```
+
+symlinks
+```bash
+ln -s {dotfiles}/zshrc ~/.zshrc
+ln -s {dotfiles}/gitconfig ~/.gitconfig
+ln -s {dotfiles}/gitignore ~/.gitignore
+
+ln -s {dotfiles}/kakrc ~/.config/kak/kakrc
+ln -s {dotfiles}/aliases.zsh ~/.oh-my-zsh/custom/aliases.zsh
 ```
 
 ## Ruby
-```ruby
+```bash
 sudo rm -rf $HOME/.rbenv /usr/local/rbenv /opt/rbenv /usr/local/opt/rbenv
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 cd ~/.rbenv && src/configure && make -C src # Optionally compile ruby for faster performance
