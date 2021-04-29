@@ -1,0 +1,20 @@
+{
+  "linters": {
+    "rubocop": {
+      "disable": true
+    },
+    "standardrb": {
+      "disable": false,
+      "prefer_standard": true
+    }
+  },
+  "lint_mode": "load_save",
+  "paths": {
+    "linux": [
+      "~/.rbenv/shims"
+    ],
+    "osx": [
+      "~/.rbenv/shims"
+    ]
+  }
+}

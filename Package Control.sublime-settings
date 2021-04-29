@@ -1,0 +1,39 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"All Autocomplete",
+		"ApplySyntax",
+		"Babel",
+		"Better Rails",
+		"Better RSpec",
+		"Better Ruby",
+		"BracketHighlighter",
+		"Compare Side-By-Side",
+		"Emmet",
+		"FileManager",
+		"Focus File on Sidebar",
+		"Git",
+		"GitGutter",
+		"HexViewer",
+		"JsPrettier",
+		"MarkdownEditing",
+		"Monokai Extended",
+		"Naomi",
+		"Package Control",
+		"RandomCase",
+		"SublimeLinter",
+		"SublimeLinter-contrib-standardrb",
+		"SublimeLinter-eslint",
+		"Terminus",
+		"yardoc"
+	],
+	"repositories":
+	[
+		"https://sublime.fnando.com/repositories.json"
+	]
+}

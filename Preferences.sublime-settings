@@ -1,0 +1,95 @@
+{
+	"binary_file_patterns":
+	[
+		"*.example",
+		"*README*",
+		".codeclimate.yml",
+		".env",
+		".gitignore",
+		".keep",
+		".overcommit.yml",
+		".rails_best_practices.yml",
+		".rspec",
+		".rspec_status",
+		".rubocop.yml",
+		".ruby-version",
+		".yardopts",
+		"Gemfile",
+		"Gemfile.lock",
+		"Procfile",
+		"Rakefile",
+		"bin/bundle",
+		"bin/rails",
+		"config.ru",
+		"config/*.yml",
+		"config/boot.rb",
+		"config/environment.rb",
+		"config/environments/**",
+		"config/puma.rb",
+		"credentials.yml.enc",
+		"db/seeds/**",
+		"master.key",
+		"min.js",
+		"public/**",
+		"spec/examples.txt",
+		"storage/**"
+	],
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+	"detect_indentation": false,
+	"draw_white_space": true,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		".byebug_history",
+		".DS_Store",
+		".rake_tasks"
+	],
+	"folder_exclude_patterns":
+	[
+		".asset-cache",
+		".bundle",
+		".git",
+		".sass-cache",
+		".svn",
+		".yardoc",
+		"_site",
+		"build",
+		"coverage",
+		"dist",
+		"log",
+		"node_modules",
+		"public/packs",
+		"tmp"
+	],
+	"font_size": 12,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"HTML",
+		"JavaScript",
+		"Markdown",
+		"Rails",
+		"Ruby",
+		"Vintage"
+	],
+	"match_brackets": false,
+	"match_brackets_angle": false,
+	"match_brackets_braces": false,
+	"match_brackets_content": false,
+	"match_brackets_square": false,
+	"remember_open_files": false,
+	"rulers":
+	[
+		120
+	],
+	"show_full_path": true,
+	"tab_size": 2,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"update_check": false,
+	"use_tab_stops": true,
+	"word_wrap": false
+}

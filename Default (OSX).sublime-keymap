@@ -1,0 +1,84 @@
+[
+  // { "keys": ["super+k"], "command": "toggle_side_bar" },
+  { "keys": ["super+0"], "command": "focus_file_on_sidebar" },
+  {
+    "keys": ["super+equals"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.5, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+    }
+  },
+  {
+    "keys": ["super+minus"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1]]
+    }
+  },
+  // Newline at cursor
+  { "keys": ["super+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} },
+  { "keys": ["super+f"], "command": "show_panel", "args": {"panel": "find", "reverse": false, "toggle": true} },
+  { "keys": ["super+;"], "command": "goto_definition" },
+  { "keys": ["super+o"], "command": "overlay", "args": {"overlay": "goto", "show_files": true} },
+  // Navigate brackets
+  {
+    "keys": ["super+up"],
+    "command": "bh_key",
+    "args":
+    {
+      "no_outside_adj": null,
+      "no_block_mode": null,
+      "lines" : true,
+      "plugin":
+      {
+        "type": ["__all__"],
+        "command": "bh_modules.bracketselect",
+        "args": {"select": "left"}
+      }
+    }
+  },
+  {
+    "keys": ["super+down"],
+    "command": "bh_key",
+    "args":
+    {
+      "no_outside_adj": null,
+      "no_block_mode": null,
+      "lines" : true,
+      "plugin":
+      {
+        "type": ["__all__"],
+        "command": "bh_modules.bracketselect",
+        "args": {"select": "right"}
+      }
+    }
+  },
+  // Ctrl+shift+a to select entire bracket contents
+  {
+    "keys": ["super+shift+a"],
+    "command": "bh_key",
+    "args":
+    {
+      "lines" : true,
+      "plugin":
+      {
+        "type": ["__all__"],
+        "command": "bh_modules.bracketselect"
+      }
+    }
+  },
+  // Delete current brackets
+  { "keys": ["super+shift+backspace"], "command": "bh_remove_brackets" },
+  // Delete to BOL, keep indentation
+  { "keys": ["super+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to BOL.sublime-macro"} },
+  // Select indentation
+  { "keys": ["super+shift+down"], "command": "expand_selection", "args": {"to": "indentation"} },
+  // Move current file
+  { "keys": ["super+shift+\\"], "command": "rename_file" }
+]
