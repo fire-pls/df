@@ -54,4 +54,3 @@ plug "andreyorst/smarttab.kak" defer smarttab %{
 } config %{
   hook global WinSetOption filetype=(ruby|javascript|typescript|kak|sh|markdown) expandtab
 }
-

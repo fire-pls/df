@@ -1,7 +1,11 @@
+[init]
+  defaultBranch = source
 [core]
+  pager = less -FRSX
   excludesfile = "${HOME}/.gitignore"
 [user]
   email = trevor@osrs-stat.com
   name = Trevor
   signingkey = E3747CEE47253A38
-
+[pull]
+  ff = only

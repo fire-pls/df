@@ -27,4 +27,3 @@ type -a pyenv > /dev/null && eval "$(pyenv init -)"
 # Lastly, add current dir to PATH (after ohmyzsh)
 export PATH=./node_modules/.bin:$PATH
 export PATH=./bin:$PATH
-
